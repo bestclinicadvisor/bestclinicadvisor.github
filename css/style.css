@@ -1,0 +1,113 @@
+/* Global Styles */
+* {
+    margin: 0;
+    .open-sans-<uniquifier> {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+      }      
+    .container {
+        width: 1440px;
+        max-width: 100%;
+        margin: auto;
+        margin-left: 20px;
+    }
+}
+/* Header Section */
+header {
+    height: 120px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    .container {
+        height: 100%;
+        max-width: 100%;
+        margin: 0 0 0 5px;
+        background-color: white;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        }
+        section.logo {
+            font-size: 25px;
+            display: inline-block;
+        }
+        section.logo img {
+            height: 200px;
+            font-weight: 700px;
+        }
+        section.logo span.blue-dot {
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 7px;
+            border-radius: 10px;
+            background-color: #919cd4;
+            width: 20px;
+            height: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+         }
+          nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+            }
+            nav ul li:last-of-type {
+                margin-right: 15px;
+            }
+            nav ul li a {
+                color: #919cd4;
+                text-decoration: none;
+                font-size: 20px;
+                font-weight: 300;
+            }
+}
+/* Main Section */
+body{
+section.backgroundmain1 {
+    position: relative;
+}
+    section.backgroundmain1 img {
+    width: 100%;
+    height: 800px; 
+    background-position: top
+    ;
+}
+    section.backgroundmain1 .mainpagecontent1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+    section.backgroundmain1 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+section.backgroundmain1 h1 {
+    font-weight: 600;
+    font-size: 60px;
+    max-width: 500px;
+    color: black;
+}
+section.backgroundmain1 p {
+    font-weight: 500;
+    font-size: 25px;
+    max-width: 500px;
+    color: black;
+}
+
+    
+}
+/* Footer Section */
+footer {
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-top: 1px solid gray;
+}
